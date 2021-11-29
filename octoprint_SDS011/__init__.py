@@ -13,7 +13,7 @@ class SDS011Plugin(octoprint.plugin.StartupPlugin,
 				   octoprint.plugin.TemplatePlugin):
 
 	def __init__(self):
-		self.port = 8080
+		self.port = 7575
 		self.refresh = 60
 		self.showaqi = 0
 		self.graphwidth = 720
